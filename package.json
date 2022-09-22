@@ -1,0 +1,41 @@
+{
+  "name": "primelooter",
+  "description": "Node.js bot which automatically claims twitch/amazon prime gaming loot. 🤖",
+  "private": false,
+  "version": "0.1.0",
+  "license": "GNU",
+  "author": "Marcelo 'teka' Oliveira <marcelotk_15@hotmail.com>",
+  "homepage": "https://github.com/marcelotk15/primelooter#readme",
+  "bugs": "https://github.com/marcelotk15/primelooter/issues",
+  "main": "build/main.js",
+  "scripts": {
+    "dev": "tsnd --respawn --transpile-only src/main.ts"
+  },
+  "engines": {
+    "node": "^16.15.x"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0",
+    "eslint": "^8.23.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "commander": "^9.4.0",
+    "puppeteer": "^18.0.5",
+    "puppeteer-extra": "^3.3.4"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "twitch",
+    "loot",
+    "looter",
+    "amazon"
+  ]
+}
